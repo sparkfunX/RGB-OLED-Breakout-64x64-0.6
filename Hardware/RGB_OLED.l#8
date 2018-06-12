@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -23,28 +23,28 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -62,8 +62,8 @@
 <library>
 <packages>
 <package name="UG-6464TDDBG01-EXTENDED">
-<text x="-4.253" y="-3.616" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-4.253" y="-4.632" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.253" y="-1.076" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-4.253" y="-2.092" size="0.8128" layer="27">&gt;VALUE</text>
 <wire x1="-5.25" y1="2.5" x2="-5.25" y2="13.75" width="0.2032" layer="51"/>
 <wire x1="-5.25" y1="14.55" x2="-5.25" y2="15.15" width="0.2032" layer="51"/>
 <wire x1="-5.25" y1="15.15" x2="5.25" y2="15.15" width="0.2032" layer="51"/>
@@ -95,7 +95,7 @@ orientation from the opposite side of
 the board</text>
 <text x="-7.1" y="15.5" size="0.6096" layer="51" ratio="15">Rigid panel</text>
 <text x="-4.4" y="14.1" size="0.6096" layer="51" ratio="15">Flexible ribbon</text>
-<circle x="-4.7498" y="-2.921" radius="0.127" width="0" layer="21"/>
+<circle x="-4.7498" y="-0.381" radius="0.127" width="0" layer="21"/>
 <text x="-5" y="28.3" size="0.6096" layer="52" ratio="15">Active Area 
 64 x 64 
 0.6" RGB</text>
@@ -123,8 +123,6 @@ the board</text>
 <smd name="P$20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 </package>
 <package name="UG-6464TDDBG01-FOLDED">
-<text x="-4.253" y="-1.116" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-4.253" y="-2.232" size="0.8128" layer="27">&gt;VALUE</text>
 <wire x1="7.5" y1="11.52" x2="-7.5" y2="11.52" width="0.2032" layer="51"/>
 <wire x1="5.25" y1="2.5" x2="-5.25" y2="2.5" width="0.2032" layer="51"/>
 <wire x1="-7.5" y1="11.52" x2="-7.5" y2="-5.98" width="0.2032" layer="51"/>
@@ -148,7 +146,6 @@ orientation from the opposite side of
 the board</text>
 <text x="7.1" y="11.17" size="0.6096" layer="51" ratio="15" rot="R180">Rigid panel</text>
 <text x="-4.4" y="14.1" size="0.6096" layer="51" ratio="15">Flexible ribbon</text>
-<circle x="-4.7498" y="-0.521" radius="0.127" width="0" layer="21"/>
 <text x="5" y="-1.63" size="0.6096" layer="51" ratio="15" rot="R180">Active Area 
 64 x 64 
 0.6" RGB</text>
@@ -181,6 +178,9 @@ side as pads</text>
 <wire x1="-5.25" y1="12.85" x2="-5.25" y2="13.25" width="0.2032" layer="51"/>
 <wire x1="-5.25" y1="12.05" x2="-5.25" y2="2.5" width="0.2032" layer="51"/>
 <wire x1="-5.25" y1="13.3" x2="5.25" y2="13.3" width="0.2032" layer="51"/>
+<text x="-4.253" y="-1.076" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-4.253" y="-2.092" size="0.8128" layer="27">&gt;VALUE</text>
+<circle x="-4.7498" y="-0.381" radius="0.127" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
