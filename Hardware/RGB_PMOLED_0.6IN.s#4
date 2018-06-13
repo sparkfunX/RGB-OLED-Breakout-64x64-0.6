@@ -7190,6 +7190,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.01625" y="-2.69875" curve="90"/>
 </polygon>
 </package>
+<package name="DIODE-MICRO-SMP">
+<wire x1="-1.3462" y1="0.4572" x2="-1.3462" y2="-0.4572" width="0.1524" layer="51"/>
+<wire x1="1.3462" y1="-0.381" x2="1.3462" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-1.3462" y1="-0.7112" x2="1.3462" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.3462" y1="-0.7112" x2="1.3462" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.3462" y1="0.7112" x2="-1.3462" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.3462" y1="0.7112" x2="-1.3462" y2="-0.7112" width="0.1524" layer="51"/>
+<smd name="C" x="-0.6985" y="0" dx="2.0066" dy="1.102359375" layer="1"/>
+<smd name="A" x="1.2192" y="0" dx="0.8128" dy="0.8128" layer="1"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.6002" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;Value</text>
+<wire x1="-2.0574" y1="-0.6096" x2="-2.0574" y2="0.5842" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -7329,6 +7342,18 @@ Switches electronic signals</description>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-08411"/>
 <attribute name="VALUE" value="700mA/40V/533mV"/>
+</technology>
+</technologies>
+</device>
+<device name="-MSS1P6-M3/89A" package="DIODE-MICRO-SMP">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-13919" constant="no"/>
+<attribute name="VALUE" value="1A/60V/520mV" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7834,7 +7859,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NA-XXXXX" constant="no"/>
+<attribute name="PROD_ID" value="IC-13929" constant="no"/>
 <attribute name="VALUE" value="TXB0104"/>
 </technology>
 </technologies>
@@ -8365,6 +8390,8 @@ the board</text>
 <smd name="18" x="-3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="19" x="-4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<hole x="-4.45" y="4.7" drill="0.8"/>
+<hole x="4.45" y="4.7" drill="0.8"/>
 </package>
 <package name="UG-6464TDDBG01-FOLDED">
 <wire x1="7.5" y1="11.52" x2="-7.5" y2="11.52" width="0.2032" layer="51"/>
@@ -8425,6 +8452,8 @@ side as pads</text>
 <smd name="18" x="-3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="19" x="-4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<hole x="-4.45" y="4.7" drill="0.8"/>
+<hole x="4.45" y="4.7" drill="0.8"/>
 </package>
 </packages>
 <symbols>
@@ -8630,13 +8659,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="390KOHM" device="-0603-1/10W-1%" value="390k"/>
-<part name="U1" library="RGB_OLED" deviceset="UG-6464TDDBG01" device="-EXT"/>
+<part name="U1" library="RGB_OLED" deviceset="UG-6464TDDBG01" device="-FLD" value="UG-6464TDDBG01-FLD"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="2.2uF"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
-<part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
+<part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device="" value="STAND-OFF"/>
+<part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device="" value="STAND-OFF"/>
+<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8667,7 +8701,8 @@ the voltage at Iref will be fixed at 3.3V</text>
 <wire x1="0" y1="45.72" x2="147.32" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <text x="5.08" y="111.76" size="2.54" layer="94">RGB PMOLED 0.6"</text>
 <text x="7.62" y="40.64" size="2.54" layer="94">Connector</text>
-<text x="38.1" y="93.98" size="1.27" layer="97" rot="R90">TO 3.3V???</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">X01</text>
+<text x="162.56" y="96.52" size="2.54" layer="94">CS Pullup</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -8723,6 +8758,11 @@ the voltage at Iref will be fixed at 3.3V</text>
 <instance part="LOGO2" gate="G$1" x="132.08" y="22.86"/>
 <instance part="H1" gate="G$1" x="241.3" y="25.4"/>
 <instance part="H2" gate="G$1" x="238.76" y="27.94"/>
+<instance part="SUPPLY12" gate="G$1" x="35.56" y="93.98"/>
+<instance part="R6" gate="G$1" x="170.18" y="81.28" rot="R90"/>
+<instance part="SUPPLY15" gate="G$1" x="170.18" y="88.9"/>
+<instance part="FD3" gate="G$1" x="243.84" y="33.02"/>
+<instance part="FD4" gate="G$1" x="246.38" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -8941,6 +8981,22 @@ the voltage at Iref will be fixed at 3.3V</text>
 <wire x1="205.74" y1="88.9" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 <junction x="205.74" y="91.44"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VDD"/>
+<wire x1="63.5" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="78.74" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="86.36" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
+<junction x="35.56" y="86.36"/>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
+<wire x1="170.18" y1="86.36" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D/!C" class="0">
 <segment>
@@ -9037,6 +9093,11 @@ the voltage at Iref will be fixed at 3.3V</text>
 <wire x1="200.66" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
 <label x="198.12" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="73.66" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
+<label x="170.18" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="!RES" class="0">
 <segment>
@@ -9052,18 +9113,6 @@ the voltage at Iref will be fixed at 3.3V</text>
 <wire x1="205.74" y1="78.74" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
 <junction x="205.74" y="76.2"/>
 <label x="203.2" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VDD"/>
-<wire x1="63.5" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="78.74" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="86.36" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
-<junction x="35.56" y="86.36"/>
 </segment>
 </net>
 <net name="N$11" class="0">

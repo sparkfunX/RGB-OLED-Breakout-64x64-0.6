@@ -1,0 +1,12 @@
+1) Is the MISO tri-state buffer included? [NO]
+comment: No MISO line
+
+2) Are 0.1 inch headers lined up on 0.1 inch grid? [NO]
+comment: Only one set of headers, lined up on 0.1 in grid horiontally but only 50 mil from bottom of board vertically.
+
+3) Does it pass DRC with top/bottom keepout layers on? [NO]
+comment: Keepout errors from closely spaced resistors at top left approved by myself according to the wiki
+
+4) Are there warning labels for high voltage areas? [NO]
+comment: Is 12V "high voltage?" No warnings fro 12V boosted supply to OLED. Its all contained on the board without any external hookup areas
+
