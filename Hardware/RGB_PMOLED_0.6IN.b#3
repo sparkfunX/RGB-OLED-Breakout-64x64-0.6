@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2838,8 +2838,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$4" library="buzzard_labels" package="MOSI1" value="" x="10.16" y="1.524" rot="R90"/>
 <element name="U$5" library="buzzard_labels" package="SCLK2" value="" x="12.7" y="1.524" rot="R90"/>
 <element name="U$6" library="buzzard_labels" package="SCLK2" value="" x="12.7" y="1.524" rot="MR90"/>
-<element name="L1" library="SparkFun-Coils" package="INDUCTOR_3X3" value="10uH" x="-27.94" y="-19.05">
-<attribute name="PROD_ID" value="NDUC-13913" x="-27.94" y="-19.05" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="L1" library="SparkFun-Coils" package="INDUCTOR_3X3" value="10uH" x="3.81" y="16.51" rot="R90">
+<attribute name="PROD_ID" value="NDUC-13913" x="3.81" y="16.51" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2975,7 +2975,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.445" y1="5.715" x2="5.08" y2="5.08" width="0.4064" layer="1"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="1.27" width="0.4064" layer="1"/>
 <wire x1="5.08" y1="1.27" x2="5.08" y2="6.35" width="0.6096" layer="16"/>
-<wire x1="0.762" y1="17.145" x2="1.397" y2="16.51" width="0.4064" layer="1"/>
+<wire x1="1.397" y1="16.51" x2="0.762" y2="17.145" width="0.4064" layer="1"/>
 <wire x1="1.651" y1="27.051" x2="0.762" y2="26.162" width="0.4064" layer="1"/>
 <wire x1="0.762" y1="26.162" x2="0.762" y2="21.209" width="0.4064" layer="1"/>
 <wire x1="0.762" y1="21.209" x2="0.762" y2="19.431" width="0.4064" layer="1"/>
@@ -3001,8 +3001,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.2399" y1="19.37" x2="0.823" y2="19.37" width="0.4064" layer="1"/>
 <wire x1="0.823" y1="19.37" x2="0.762" y2="19.431" width="0.4064" layer="1"/>
 <contactref element="L1" pad="P$1"/>
-<wire x1="0.635" y1="6.35" x2="-27.94" y2="-17.95" width="0" layer="19" extent="1-1"/>
-<wire x1="1.397" y1="16.51" x2="3.429" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="2.71" y1="16.51" x2="3.429" y2="16.51" width="0.4064" layer="1"/>
+<wire x1="2.71" y1="16.51" x2="1.397" y2="16.51" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="D1" pad="A"/>
@@ -3011,11 +3011,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.35" y1="21.336" x2="6.724" y2="21.71" width="0.4064" layer="1"/>
 <wire x1="6.35" y1="19.812" x2="6.35" y2="21.336" width="0.4064" layer="1"/>
 <wire x1="3.8401" y1="19.37" x2="3.8401" y2="16.9879" width="0.4064" layer="1"/>
-<wire x1="3.8401" y1="16.9879" x2="4.318" y2="16.51" width="0.4064" layer="1"/>
+<wire x1="4.318" y1="16.51" x2="3.8401" y2="16.9879" width="0.4064" layer="1"/>
 <wire x1="6.35" y1="19.812" x2="4.91" y2="18.372" width="0.4064" layer="1"/>
 <contactref element="L1" pad="P$2"/>
-<wire x1="4.318" y1="16.51" x2="-27.94" y2="-20.15" width="0" layer="19" extent="1-1"/>
-<wire x1="4.91" y1="18.372" x2="3.8401" y2="19.37" width="0" layer="19" extent="1-1"/>
+<wire x1="4.91" y1="16.51" x2="4.318" y2="16.51" width="0.4064" layer="1"/>
+<wire x1="4.91" y1="18.372" x2="4.91" y2="16.51" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U2" pad="3"/>
