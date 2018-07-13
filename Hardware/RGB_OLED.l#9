@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -20,9 +20,9 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -95,12 +95,9 @@ orientation from the opposite side of
 the board</text>
 <text x="-7.1" y="15.5" size="0.6096" layer="51" ratio="15">Rigid panel (viewing on other side)</text>
 <text x="-4.4" y="14.1" size="0.6096" layer="51" ratio="15">Flexible ribbon</text>
-<circle x="-4.7498" y="-0.381" radius="0.127" width="0" layer="21"/>
-<text x="-5" y="28.3" size="0.6096" layer="52" ratio="15">Active Area 
-64 x 64 
-0.6" RGB</text>
-<text x="-5" y="20.68" size="0.6096" layer="52" ratio="15">View from opposite
- side of pads</text>
+<circle x="4.7752" y="-0.381" radius="0.127" width="0" layer="21"/>
+<text x="-4.873" y="19.2322" size="0.508" layer="52" ratio="15">Active Area 64 x 64 0.6" RGB</text>
+<text x="-5.3302" y="31.4496" size="0.508" layer="52" ratio="15">View from opposite side as pads</text>
 <smd name="1" x="4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="2" x="4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="3" x="3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
@@ -121,6 +118,9 @@ the board</text>
 <smd name="18" x="-3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="19" x="-4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<hole x="-4.45" y="4.7" drill="0.8"/>
+<hole x="4.45" y="4.7" drill="0.8"/>
+<rectangle x1="-5.3594" y1="20.2946" x2="5.3848" y2="31.0388" layer="52"/>
 </package>
 <package name="UG-6464TDDBG01-FOLDED">
 <wire x1="7.5" y1="11.52" x2="-7.5" y2="11.52" width="0.2032" layer="51"/>
@@ -137,7 +137,7 @@ the board</text>
 <wire x1="-5.36" y1="-4.38" x2="-5.36" y2="6.35" width="0.1524" layer="51"/>
 <wire x1="-5.36" y1="6.35" x2="5.36" y2="6.35" width="0.1524" layer="51"/>
 <wire x1="5.36" y1="6.35" x2="5.36" y2="-4.38" width="0.1524" layer="51"/>
-<text x="12.34" y="-2.46" size="0.6096" layer="51" ratio="15" rot="R90">Note: OLED contacts are on the
+<text x="13.61" y="-5" size="0.508" layer="51" ratio="15" rot="R90">Note: OLED contacts are on the
  same side as the viewing side of the
  OLED. This means that the dislay 
 must be either a) folded back onto
@@ -146,31 +146,8 @@ orientation from the opposite side of
 the board</text>
 <text x="7.1" y="11.17" size="0.6096" layer="51" ratio="15" rot="R180">Rigid panel</text>
 <text x="-4.4" y="14.1" size="0.6096" layer="51" ratio="15">Flexible ribbon</text>
-<text x="5" y="-1.63" size="0.6096" layer="51" ratio="15" rot="R180">Active Area 
-64 x 64 
-0.6" RGB</text>
-<text x="5" y="5.99" size="0.6096" layer="51" ratio="15" rot="R180">View from same 
-side as pads</text>
-<smd name="P$1" x="4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$2" x="4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$3" x="3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$4" x="3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$5" x="2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$6" x="2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$7" x="1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$8" x="1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$9" x="0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$10" x="0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$11" x="-0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$12" x="-0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$13" x="-1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$14" x="-1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$15" x="-2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$16" x="-2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$17" x="-3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$18" x="-3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$19" x="-4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="P$20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<text x="4.9492" y="-4.8304" size="0.508" layer="51" ratio="15" rot="R180">Active Area 64 x 64 0.6" RGB</text>
+<text x="4.9492" y="7.2346" size="0.508" layer="51" ratio="15" rot="R180">View from same side as pads</text>
 <wire x1="-5.25" y1="12.85" x2="-5.25" y2="12.05" width="0.2032" layer="51" curve="-180"/>
 <wire x1="5.25" y1="12.05" x2="5.25" y2="12.85" width="0.2032" layer="51" curve="-180"/>
 <wire x1="5.25" y1="12.85" x2="5.25" y2="13.25" width="0.2032" layer="51"/>
@@ -180,7 +157,65 @@ side as pads</text>
 <wire x1="-5.25" y1="13.3" x2="5.25" y2="13.3" width="0.2032" layer="51"/>
 <text x="-4.253" y="-1.076" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-4.253" y="-2.092" size="0.8128" layer="27">&gt;VALUE</text>
-<circle x="-4.7498" y="-0.381" radius="0.127" width="0" layer="21"/>
+<circle x="4.7752" y="-0.381" radius="0.127" width="0" layer="21"/>
+<smd name="1" x="4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="2" x="4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="3" x="3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="4" x="3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="5" x="2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="6" x="2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="7" x="1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="8" x="1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="9" x="0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="10" x="0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="11" x="-0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="12" x="-0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="13" x="-1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="14" x="-1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="15" x="-2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="16" x="-2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="17" x="-3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="18" x="-3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="19" x="-4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<hole x="-4.45" y="4.7" drill="0.8"/>
+<hole x="4.45" y="4.7" drill="0.8"/>
+<rectangle x1="-5.3594" y1="-4.3942" x2="5.3848" y2="6.35" layer="51"/>
+</package>
+<package name="AMPHENOL_10051922-2010ELF">
+<smd name="1" x="-4.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="2" x="-4.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="3" x="-3.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="4" x="-3.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="5" x="-2.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="6" x="-2.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="7" x="-1.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="8" x="-1.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="9" x="-0.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="10" x="-0.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="11" x="0.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="12" x="0.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="13" x="1.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="14" x="1.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="15" x="2.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="16" x="2.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="17" x="3.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="18" x="3.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="19" x="4.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="20" x="4.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$21" x="-5.975" y="-2.7" dx="0.95" dy="1" layer="1"/>
+<smd name="P$22" x="5.975" y="-2.7" dx="0.95" dy="1" layer="1"/>
+<circle x="-4.7244" y="0.889" radius="0.08031875" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-3.55" x2="-6.25" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-6.25" y1="-0.4" x2="-5.35" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-0.4" x2="-5.35" y2="-0.15" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-0.15" x2="5.35" y2="-0.15" width="0.1" layer="51"/>
+<wire x1="5.35" y1="-0.15" x2="5.35" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="5.35" y1="-0.4" x2="6.25" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-0.4" x2="6.25" y2="-3.55" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-3.55" x2="-6.25" y2="-3.55" width="0.1" layer="51"/>
+<text x="-5.08" y="-1.778" size="1.016" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-3.175" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -210,11 +245,52 @@ side as pads</text>
 </gates>
 <devices>
 <device name="-EXT" package="UG-6464TDDBG01-EXTENDED">
+<connects>
+<connect gate="G$1" pin="!CS" pad="16"/>
+<connect gate="G$1" pin="!RES" pad="15"/>
+<connect gate="G$1" pin="D/!C" pad="14"/>
+<connect gate="G$1" pin="IREF" pad="17"/>
+<connect gate="G$1" pin="SCLK" pad="11"/>
+<connect gate="G$1" pin="SDIN" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VCOMH" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="1 19 20"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="-FLD" package="UG-6464TDDBG01-FOLDED">
+<connects>
+<connect gate="G$1" pin="!CS" pad="16"/>
+<connect gate="G$1" pin="!RES" pad="15"/>
+<connect gate="G$1" pin="D/!C" pad="14"/>
+<connect gate="G$1" pin="IREF" pad="17"/>
+<connect gate="G$1" pin="SCLK" pad="11"/>
+<connect gate="G$1" pin="SDIN" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VCOMH" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="1 19 20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="AMPHENOL_10051922-2010ELF">
+<connects>
+<connect gate="G$1" pin="!CS" pad="16"/>
+<connect gate="G$1" pin="!RES" pad="15"/>
+<connect gate="G$1" pin="D/!C" pad="14"/>
+<connect gate="G$1" pin="IREF" pad="17"/>
+<connect gate="G$1" pin="SCLK" pad="11"/>
+<connect gate="G$1" pin="SDIN" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VCOMH" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="1 19 20"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

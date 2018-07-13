@@ -7965,67 +7965,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </library>
 <library name="RGB_OLED">
 <packages>
-<package name="UG-6464TDDBG01-EXTENDED">
-<text x="-4.253" y="-1.076" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-4.253" y="-2.092" size="0.8128" layer="27">&gt;VALUE</text>
-<wire x1="-5.25" y1="2.5" x2="-5.25" y2="13.75" width="0.2032" layer="51"/>
-<wire x1="-5.25" y1="14.55" x2="-5.25" y2="15.15" width="0.2032" layer="51"/>
-<wire x1="-5.25" y1="15.15" x2="5.25" y2="15.15" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="15.15" x2="5.25" y2="14.55" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="13.75" x2="5.25" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="2.5" x2="-5.25" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="15.15" x2="7.5" y2="15.15" width="0.2032" layer="51"/>
-<wire x1="7.5" y1="15.15" x2="7.5" y2="32.65" width="0.2032" layer="51"/>
-<wire x1="7.5" y1="32.65" x2="-7.5" y2="32.65" width="0.2032" layer="51"/>
-<wire x1="-7.5" y1="32.65" x2="-7.5" y2="15.15" width="0.2032" layer="51"/>
-<wire x1="-7.5" y1="15.15" x2="-5.25" y2="15.15" width="0.2032" layer="51"/>
-<wire x1="-5.25" y1="14.55" x2="-5.25" y2="13.75" width="0.2032" layer="51" curve="-180"/>
-<wire x1="5.25" y1="13.75" x2="5.25" y2="14.55" width="0.2032" layer="51" curve="-180"/>
-<circle x="-4.45" y="4.7" radius="0.4" width="0.01" layer="51"/>
-<circle x="4.45" y="4.7" radius="0.4" width="0.01" layer="51"/>
-<wire x1="-5.25" y1="0" x2="-5.25" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="-5.25" y1="0" x2="5.25" y2="0" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="0" x2="5.25" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="-5.36" y1="31.05" x2="5.36" y2="31.05" width="0.1524" layer="52"/>
-<wire x1="5.36" y1="31.05" x2="5.36" y2="20.32" width="0.1524" layer="52"/>
-<wire x1="5.36" y1="20.32" x2="-5.36" y2="20.32" width="0.1524" layer="52"/>
-<wire x1="-5.36" y1="20.32" x2="-5.36" y2="31.05" width="0.1524" layer="52"/>
-<text x="12.34" y="-2.46" size="0.6096" layer="51" ratio="15" rot="R90">Note: OLED contacts are on the
- same side as the viewing side of the
- OLED. This means that the dislay 
-must be either a) folded back onto
- itself or b) used in the elongated 
-orientation from the opposite side of
-the board</text>
-<text x="-7.1" y="15.5" size="0.6096" layer="51" ratio="15">Rigid panel (viewing on other side)</text>
-<text x="-4.4" y="14.1" size="0.6096" layer="51" ratio="15">Flexible ribbon</text>
-<circle x="-4.7498" y="-0.381" radius="0.127" width="0" layer="21"/>
-<text x="-4.873" y="19.2322" size="0.508" layer="52" ratio="15">Active Area 64 x 64 0.6" RGB</text>
-<text x="-5.3302" y="31.4496" size="0.508" layer="52" ratio="15">View from opposite side as pads</text>
-<smd name="1" x="4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="2" x="4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="3" x="3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="4" x="3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="5" x="2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="6" x="2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="7" x="1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="8" x="1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="9" x="0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="10" x="0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="11" x="-0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="12" x="-0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="13" x="-1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="14" x="-1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="15" x="-2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="16" x="-2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="17" x="-3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="18" x="-3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="19" x="-4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<smd name="20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
-<hole x="-4.45" y="4.7" drill="0.8"/>
-<hole x="4.45" y="4.7" drill="0.8"/>
-<rectangle x1="-5.3594" y1="20.2946" x2="5.3848" y2="31.0388" layer="52"/>
-</package>
 <package name="UG-6464TDDBG01-FOLDED">
 <wire x1="7.5" y1="11.52" x2="-7.5" y2="11.52" width="0.2032" layer="51"/>
 <wire x1="5.25" y1="2.5" x2="-5.25" y2="2.5" width="0.2032" layer="51"/>
@@ -8061,7 +8000,7 @@ the board</text>
 <wire x1="-5.25" y1="13.3" x2="5.25" y2="13.3" width="0.2032" layer="51"/>
 <text x="-4.253" y="-1.076" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-4.253" y="-2.092" size="0.8128" layer="27">&gt;VALUE</text>
-<circle x="-4.7498" y="-0.381" radius="0.127" width="0" layer="21"/>
+<circle x="4.7752" y="-0.381" radius="0.127" width="0" layer="21"/>
 <smd name="1" x="4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="2" x="4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
 <smd name="3" x="3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
@@ -8086,6 +8025,143 @@ the board</text>
 <hole x="4.45" y="4.7" drill="0.8"/>
 <rectangle x1="-5.3594" y1="-4.3942" x2="5.3848" y2="6.35" layer="51"/>
 </package>
+<package name="UG-6464TDDBG01-EXTENDED">
+<text x="-4.253" y="-1.076" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-4.253" y="-2.092" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-5.25" y1="2.5" x2="-5.25" y2="13.75" width="0.2032" layer="51"/>
+<wire x1="-5.25" y1="14.55" x2="-5.25" y2="15.15" width="0.2032" layer="51"/>
+<wire x1="-5.25" y1="15.15" x2="5.25" y2="15.15" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="15.15" x2="5.25" y2="14.55" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="13.75" x2="5.25" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="2.5" x2="-5.25" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="15.15" x2="7.5" y2="15.15" width="0.2032" layer="51"/>
+<wire x1="7.5" y1="15.15" x2="7.5" y2="32.65" width="0.2032" layer="51"/>
+<wire x1="7.5" y1="32.65" x2="-7.5" y2="32.65" width="0.2032" layer="51"/>
+<wire x1="-7.5" y1="32.65" x2="-7.5" y2="15.15" width="0.2032" layer="51"/>
+<wire x1="-7.5" y1="15.15" x2="-5.25" y2="15.15" width="0.2032" layer="51"/>
+<wire x1="-5.25" y1="14.55" x2="-5.25" y2="13.75" width="0.2032" layer="51" curve="-180"/>
+<wire x1="5.25" y1="13.75" x2="5.25" y2="14.55" width="0.2032" layer="51" curve="-180"/>
+<circle x="-4.45" y="4.7" radius="0.4" width="0.01" layer="51"/>
+<circle x="4.45" y="4.7" radius="0.4" width="0.01" layer="51"/>
+<wire x1="-5.25" y1="0" x2="-5.25" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="-5.25" y1="0" x2="5.25" y2="0" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="0" x2="5.25" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="-5.36" y1="31.05" x2="5.36" y2="31.05" width="0.1524" layer="52"/>
+<wire x1="5.36" y1="31.05" x2="5.36" y2="20.32" width="0.1524" layer="52"/>
+<wire x1="5.36" y1="20.32" x2="-5.36" y2="20.32" width="0.1524" layer="52"/>
+<wire x1="-5.36" y1="20.32" x2="-5.36" y2="31.05" width="0.1524" layer="52"/>
+<text x="12.34" y="-2.46" size="0.6096" layer="51" ratio="15" rot="R90">Note: OLED contacts are on the
+ same side as the viewing side of the
+ OLED. This means that the dislay 
+must be either a) folded back onto
+ itself or b) used in the elongated 
+orientation from the opposite side of
+the board</text>
+<text x="-7.1" y="15.5" size="0.6096" layer="51" ratio="15">Rigid panel (viewing on other side)</text>
+<text x="-4.4" y="14.1" size="0.6096" layer="51" ratio="15">Flexible ribbon</text>
+<circle x="4.7752" y="-0.381" radius="0.127" width="0" layer="21"/>
+<text x="-4.873" y="19.2322" size="0.508" layer="52" ratio="15">Active Area 64 x 64 0.6" RGB</text>
+<text x="-5.3302" y="31.4496" size="0.508" layer="52" ratio="15">View from opposite side as pads</text>
+<smd name="1" x="4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="2" x="4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="3" x="3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="4" x="3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="5" x="2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="6" x="2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="7" x="1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="8" x="1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="9" x="0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="10" x="0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="11" x="-0.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="12" x="-0.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="13" x="-1.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="14" x="-1.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="15" x="-2.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="16" x="-2.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="17" x="-3.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="18" x="-3.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="19" x="-4.25" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<smd name="20" x="-4.75" y="1.25" dx="0.3" dy="2.5" layer="1"/>
+<hole x="-4.45" y="4.7" drill="0.8"/>
+<hole x="4.45" y="4.7" drill="0.8"/>
+<rectangle x1="-5.3594" y1="20.2946" x2="5.3848" y2="31.0388" layer="52"/>
+</package>
+<package name="AMPHENOL_10051922-2010ELF">
+<smd name="1" x="-4.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="2" x="-4.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="3" x="-3.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="4" x="-3.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="5" x="-2.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="6" x="-2.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="7" x="-1.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="8" x="-1.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="9" x="-0.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="10" x="-0.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="11" x="0.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="12" x="0.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="13" x="1.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="14" x="1.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="15" x="2.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="16" x="2.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="17" x="3.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="18" x="3.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="19" x="4.25" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="20" x="4.75" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$21" x="-5.975" y="-2.7" dx="0.95" dy="1" layer="1"/>
+<smd name="P$22" x="5.975" y="-2.7" dx="0.95" dy="1" layer="1"/>
+<circle x="-4.7244" y="0.889" radius="0.08031875" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-3.55" x2="-6.25" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-6.25" y1="-0.4" x2="-5.35" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-0.4" x2="-5.35" y2="-0.15" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-0.15" x2="5.35" y2="-0.15" width="0.1" layer="51"/>
+<wire x1="5.35" y1="-0.15" x2="5.35" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="5.35" y1="-0.4" x2="6.25" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-0.4" x2="6.25" y2="-3.55" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-3.55" x2="-6.25" y2="-3.55" width="0.1" layer="51"/>
+<text x="-5.0658" y="-1.9142" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-5.0658" y="-3.108" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="FFC_AND_HOTBAR">
+<smd name="P$21" x="-5.975" y="-2.7" dx="0.95" dy="1" layer="1"/>
+<smd name="P$22" x="5.975" y="-2.7" dx="0.95" dy="1" layer="1"/>
+<circle x="-5.4744" y="0.389" radius="0.08031875" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-3.55" x2="-6.25" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-6.25" y1="-0.4" x2="-5.35" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-0.4" x2="-5.35" y2="-0.15" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-0.15" x2="5.35" y2="-0.15" width="0.1" layer="51"/>
+<wire x1="5.35" y1="-0.15" x2="5.35" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="5.35" y1="-0.4" x2="6.25" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-0.4" x2="6.25" y2="-3.55" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-3.55" x2="-6.25" y2="-3.55" width="0.1" layer="51"/>
+<text x="-5.0658" y="-1.9142" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-5.0658" y="-3.108" size="0.8128" layer="27">&gt;VALUE</text>
+<smd name="1" x="-4.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="2" x="-4.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="3" x="-3.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="4" x="-3.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="5" x="-2.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="6" x="-2.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="7" x="-1.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="8" x="-1.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="9" x="-0.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="10" x="-0.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="11" x="0.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="12" x="0.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="13" x="1.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="14" x="1.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="15" x="2.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="16" x="2.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="17" x="3.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="18" x="3.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="19" x="4.25" y="2.1" dx="0.3" dy="5" layer="1"/>
+<smd name="20" x="4.75" y="2.1" dx="0.3" dy="5" layer="1"/>
+<text x="4.253" y="3.176" size="0.8128" layer="25" rot="R180">&gt;NAME</text>
+<text x="4.253" y="4.192" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
+<circle x="4.45" y="-2.6" radius="0.4" width="0.01" layer="51"/>
+<circle x="-4.45" y="-2.6" radius="0.4" width="0.01" layer="51"/>
+<hole x="4.45" y="-2.6" drill="0.8"/>
+<hole x="-4.45" y="-2.6" drill="0.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="UG-6464TDDBG01">
@@ -8105,6 +8181,7 @@ the board</text>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <text x="-10.16" y="-9.906" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <text x="-10.16" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="MOUNT" x="0" y="-12.7" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8119,6 +8196,7 @@ the board</text>
 <connect gate="G$1" pin="!RES" pad="15"/>
 <connect gate="G$1" pin="D/!C" pad="14"/>
 <connect gate="G$1" pin="IREF" pad="17"/>
+<connect gate="G$1" pin="MOUNT" pad="4"/>
 <connect gate="G$1" pin="SCLK" pad="11"/>
 <connect gate="G$1" pin="SDIN" pad="10"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
@@ -8136,6 +8214,43 @@ the board</text>
 <connect gate="G$1" pin="!RES" pad="15"/>
 <connect gate="G$1" pin="D/!C" pad="14"/>
 <connect gate="G$1" pin="IREF" pad="17"/>
+<connect gate="G$1" pin="MOUNT" pad="4"/>
+<connect gate="G$1" pin="SCLK" pad="11"/>
+<connect gate="G$1" pin="SDIN" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VCOMH" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="1 19 20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="AMPHENOL_10051922-2010ELF">
+<connects>
+<connect gate="G$1" pin="!CS" pad="16"/>
+<connect gate="G$1" pin="!RES" pad="15"/>
+<connect gate="G$1" pin="D/!C" pad="14"/>
+<connect gate="G$1" pin="IREF" pad="17"/>
+<connect gate="G$1" pin="MOUNT" pad="P$21 P$22"/>
+<connect gate="G$1" pin="SCLK" pad="11"/>
+<connect gate="G$1" pin="SDIN" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VCOMH" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="1 19 20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MULT" package="FFC_AND_HOTBAR">
+<connects>
+<connect gate="G$1" pin="!CS" pad="16"/>
+<connect gate="G$1" pin="!RES" pad="15"/>
+<connect gate="G$1" pin="D/!C" pad="14"/>
+<connect gate="G$1" pin="IREF" pad="17"/>
+<connect gate="G$1" pin="MOUNT" pad="P$21 P$22"/>
 <connect gate="G$1" pin="SCLK" pad="11"/>
 <connect gate="G$1" pin="SDIN" pad="10"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
@@ -8717,7 +8832,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="390KOHM" device="-0603-1/10W-1%" value="390k"/>
-<part name="U1" library="RGB_OLED" deviceset="UG-6464TDDBG01" device="-FLD" value="UG-6464TDDBG01-FLD"/>
+<part name="U1" library="RGB_OLED" deviceset="UG-6464TDDBG01" device="" value="UG-6464TDDBG01"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="2.2uF"/>
@@ -8729,7 +8844,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="INDUCTOR_10UH" value="10uH"/>
+<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-CDRH-10UH" value="10uH"/>
+<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8746,9 +8862,6 @@ High limit: TXB0104)</text>
 <text x="166.116" y="11.684" size="2.54" layer="94">Owen Lyke</text>
 <text x="238.76" y="50.8" size="1.27" layer="97" rot="R90">!RES! Will tend to be pulled high by this logic level shifter. 
 It is up to an external device to pull it low to reset the screen</text>
-<text x="50.8" y="60.96" size="1.27" layer="97">Normally I'd connect Vdd to 3.3V but in the datasheet
- the maximum is listed as 2.75V - this is an output 
-from an internal power supply</text>
 <text x="50.8" y="50.8" size="1.27" layer="97">The resistor between Iref and VSS is chosen as 330k ohm 
 because the datasheet says to keep the current to 10 uA 
 at maximum. However this is based on an assumption that 
@@ -8760,7 +8873,7 @@ the voltage at Iref will be fixed at 3.3V</text>
 <wire x1="0" y1="45.72" x2="147.32" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <text x="5.08" y="111.76" size="2.54" layer="94">RGB PMOLED 0.6"</text>
 <text x="7.62" y="40.64" size="2.54" layer="94">Connector</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">X01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">X02</text>
 <text x="162.56" y="96.52" size="2.54" layer="94">CS Pullup</text>
 </plain>
 <instances>
@@ -8822,6 +8935,7 @@ the voltage at Iref will be fixed at 3.3V</text>
 <instance part="FD3" gate="G$1" x="243.84" y="33.02"/>
 <instance part="FD4" gate="G$1" x="246.38" y="30.48"/>
 <instance part="L1" gate="G$1" x="96.52" y="167.64" rot="R90"/>
+<instance part="GND7" gate="1" x="78.74" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -8902,6 +9016,11 @@ the voltage at Iref will be fixed at 3.3V</text>
 <wire x1="35.56" y1="76.2" x2="35.56" y2="73.66" width="0.1524" layer="91"/>
 <junction x="35.56" y="73.66"/>
 <pinref part="C7" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="MOUNT"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="78.74" y1="66.04" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
