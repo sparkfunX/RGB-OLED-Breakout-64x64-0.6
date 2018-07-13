@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -18,34 +18,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -2882,9 +2882,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.68" y1="21.158" x2="6.604" y2="21.082" width="0.254" layer="1"/>
 <wire x1="7.18" y1="22.86" x2="7.18" y2="21.658" width="0.254" layer="1"/>
 <wire x1="7.18" y1="21.658" x2="6.68" y2="21.158" width="0.254" layer="1"/>
-<wire x1="12.28" y1="20.32" x2="13.208" y2="20.32" width="0.4064" layer="16"/>
-<via x="13.208" y="20.32" extent="1-16" drill="0.381"/>
-<wire x1="13.208" y1="20.32" x2="17.78" y2="20.32" width="0.4064" layer="1"/>
+<wire x1="12.28" y1="20.32" x2="13.462" y2="20.32" width="0.4064" layer="16"/>
+<via x="13.462" y="20.32" extent="1-16" drill="0.381"/>
+<wire x1="13.462" y1="20.32" x2="17.78" y2="20.32" width="0.4064" layer="1"/>
 <wire x1="10.795" y1="27.94" x2="16.764" y2="27.94" width="0.4064" layer="1"/>
 <via x="16.764" y="27.94" extent="1-16" drill="0.381"/>
 <wire x1="16.764" y1="27.94" x2="16.764" y2="27.432" width="0.4064" layer="16"/>
@@ -2892,11 +2892,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="16.764" y1="27.432" x2="17.145" y2="27.051" width="0.4064" layer="16"/>
 <contactref element="U1" pad="P$21"/>
 <contactref element="U1" pad="P$22"/>
-<wire x1="18.2" y1="25.654" x2="17.405" y2="25.56" width="0" layer="19" extent="1-16"/>
-<wire x1="16.18" y1="22.86" x2="18.2" y2="24.257" width="0" layer="19" extent="1-16"/>
-<wire x1="7.18" y1="22.86" x2="9.74" y2="22.86" width="0" layer="19" extent="1-16"/>
-<wire x1="5.455" y1="25.56" x2="6.68" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="9.652" x2="13.97" y2="12.96" width="0" layer="19" extent="16-16"/>
+<polygon width="0.1016" layer="1" isolate="0.3048" thermals="no">
+<vertex x="16.256" y="25.146"/>
+<vertex x="16.256" y="26.67"/>
+<vertex x="20.066" y="26.67"/>
+<vertex x="20.828" y="25.908"/>
+<vertex x="20.828" y="23.876"/>
+<vertex x="17.526" y="23.876"/>
+</polygon>
+<polygon width="0.1016" layer="1" isolate="0.3048" thermals="no">
+<vertex x="7.62" y="27.178"/>
+<vertex x="7.62" y="23.622"/>
+<vertex x="3.302" y="23.622"/>
+<vertex x="3.302" y="27.178"/>
+<vertex x="3.302" y="27.686"/>
+<vertex x="7.62" y="27.686"/>
+</polygon>
+<via x="1.27" y="23.622" extent="1-16" drill="0.381"/>
+<via x="12.7" y="9.144" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="VIN">
 <contactref element="U2" pad="4"/>
@@ -3180,6 +3193,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.68" y1="22.86" x2="8.68" y2="12.363" width="0.254" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,1,14ddd22fd268149a"/>
+<approved hash="3,1,7cf80e0a0e037cf1"/>
+<approved hash="7,40,dfd869f03fc8c5d4"/>
+<approved hash="7,40,34183453aa2baa60"/>
+<approved hash="7,40,6927a4a25540524a"/>
+<approved hash="7,40,ac241bd7bf843631"/>
+<approved hash="7,40,34263426aa5eaa5e"/>
+<approved hash="7,40,74267426aa5eaa5e"/>
+<approved hash="7,40,1a2e1dabd4b96afd"/>
+<approved hash="7,40,746474722a0a2a1c"/>
+<approved hash="7,40,e6d250a67f87bce2"/>
+<approved hash="7,40,34143449ea31ea6c"/>
+<approved hash="7,40,3470345b6a236a08"/>
+<approved hash="7,40,2272efd394e0d899"/>
+<approved hash="7,40,346434722a0a2a1c"/>
+<approved hash="7,40,de8fc6a628407d61"/>
+<approved hash="7,40,e7d5ffc8e8618427"/>
+<approved hash="7,40,233c24c514d093bb"/>
+<approved hash="7,40,1b0fd685d4d8a1af"/>
+<approved hash="7,40,74187453aa2baa60"/>
+<approved hash="7,40,342835c56bbd6a50"/>
+<approved hash="7,40,95f88df4681f7674"/>
+<approved hash="7,40,512f56f9949061e8"/>
+</errors>
 </board>
 </drawing>
 </eagle>
