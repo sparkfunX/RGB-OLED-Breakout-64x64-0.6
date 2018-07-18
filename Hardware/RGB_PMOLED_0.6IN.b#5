@@ -2890,6 +2890,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="16.764" y1="27.94" x2="16.764" y2="27.432" width="0.4064" layer="16"/>
 <wire x1="17.145" y1="27.051" x2="18.2" y2="27.051" width="0.4064" layer="16"/>
 <wire x1="16.764" y1="27.432" x2="17.145" y2="27.051" width="0.4064" layer="16"/>
+<contactref element="U1" pad="P$21"/>
+<contactref element="U1" pad="P$22"/>
+<wire x1="18.2" y1="25.654" x2="17.405" y2="25.56" width="0" layer="19" extent="1-16"/>
+<wire x1="16.18" y1="22.86" x2="18.2" y2="24.257" width="0" layer="19" extent="1-16"/>
+<wire x1="7.18" y1="22.86" x2="9.74" y2="22.86" width="0" layer="19" extent="1-16"/>
+<wire x1="5.455" y1="25.56" x2="6.68" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="9.652" x2="13.97" y2="12.96" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VIN">
 <contactref element="U2" pad="4"/>

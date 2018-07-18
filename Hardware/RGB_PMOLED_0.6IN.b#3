@@ -2908,6 +2908,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.302" y="27.686"/>
 <vertex x="7.62" y="27.686"/>
 </polygon>
+<via x="1.27" y="23.622" extent="1-16" drill="0.381"/>
+<via x="12.7" y="9.144" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="VIN">
 <contactref element="U2" pad="4"/>
